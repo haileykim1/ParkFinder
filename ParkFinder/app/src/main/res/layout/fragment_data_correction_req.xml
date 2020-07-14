@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textline2"
+    android:orientation="vertical"
+    tools:context=".dataCorrectionReq">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="40dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/reqParkEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/textline1"
+            android:hint="공원 이름 입력" />
+
+        <EditText
+            android:id="@+id/reqContentEdit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textline1"
+            android:hint="정정 내용 입력" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

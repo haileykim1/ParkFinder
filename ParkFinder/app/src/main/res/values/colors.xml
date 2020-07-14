@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CDarkViolet">#6200EE</color>
+    <color name="CcolorPrimaryDark">#3700B3</color>
+    <color name="CcolorAccent">#03DAC5</color>
+    <color name="CCoral">#FF7F50</color>
+    <color name="CTurquoise">#40E0D0</color>
+    <color name="CLightSkyBlue">#87CEFA</color>
+    <color name="CGray">#808080</color>
+</resources>

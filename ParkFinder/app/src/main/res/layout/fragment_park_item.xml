@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parkItem"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/textline2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/parkName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="공원 이름"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/parkItemCloseBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_close_black_24dp"
+            android:backgroundTint="#000000" />
+
+    </LinearLayout>
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="700px"
+        android:layout_margin="20px"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:clickable="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/parkInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="공원 관리 번호"
+            android:textSize="15sp"/>
+    </ScrollView>
+
+
+
+
+    <Button
+        android:id="@+id/addBookmarkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="즐겨찾기 추가" />
+
+</LinearLayout>

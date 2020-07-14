@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ParkFinder</string>
+    <string name="nav_park_search">검색</string>
+    <string name="nav_park_bookmark">즐겨찾기</string>
+    <string name="nav_setting">설정</string>
+    <string name="item1des">ParkFinder v 1.0 \n 2020.6.26</string>
+    <string name="item2des">검색 탭 : 지역 드롭다운으로 조건을 부여하고 공원 이름을 검색하여 결과를 얻습니다.\n즐겨찾기 탭 : 북마크 한 공원들의 data를 얻습니다.\n설정 탭 : 앱의 기본 설정을 세팅힙니다.</string>
+    <string name="item3des">201811164 김소양\nsoyangkim98@gmail.com</string>
+    <string name="item4des">공공데이터포털 \n전국도시공원정보표준데이터</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
