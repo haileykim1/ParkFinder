@@ -1,4 +1,5 @@
 # ParkFinder
+모바일 프로그래밍 기말 프로젝트
 전국 공원찾기 어플
 
 Android / Kotlin Project   
